@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import macspoof
+
+
+if __name__ == '__main__':
+	macspoof.cli.start()

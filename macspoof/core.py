@@ -14,4 +14,4 @@ def spoof(interface, mac_address=None):
 		interface = macspoof.interfaces.Interface(interface)
 		
 	
-	interface.spoof(mac_address)
+	macspoof.log.notify(interface.spoof(mac_address))

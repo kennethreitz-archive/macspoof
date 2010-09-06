@@ -4,3 +4,4 @@ import cli
 import core
 import interfaces
 import generator
+import log

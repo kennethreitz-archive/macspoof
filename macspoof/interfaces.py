@@ -49,7 +49,7 @@ class Interface(object):
 		
 		_status = os.system('sudo ifconfig %s ether %s' % (self.id, mac))
 		
-		print 'Interface %s (%s) => (%s)' % (self.id, self.mac, mac)
+		return 'Interface %s (%s) => (%s)' % (self.id, self.mac, mac)
 		
 
 
